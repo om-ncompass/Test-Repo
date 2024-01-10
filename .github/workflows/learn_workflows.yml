@@ -2,8 +2,8 @@ name: learn_workflows
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
 jobs: 
-test-job:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "Hey there. Action succesfully ran"
+  test-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hey there. Action succesfully ran"
 
